@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "bg": "/images/Banner2-02.png",
+    "title": "HỆ THỐNG NHÀ THUỐC TIỆN LỢI",
+    "desc": "Theo dõi sức khỏe, lưu trữ thông tin y tế và kết nối trực tiếp với các nhà thuốc DQHQ. Tìm kiếm sản phẩm, đặt mua nhanh chóng và nhận tư vấn chính xác. Một nơi duy nhất để chăm sóc sức khỏe cho bạn và cả gia đình",
+    "link": "/sanpham",
+    "button": "Khám phá ngay",
+    "position": "left"
+  },
+  {
+    "id": 2,
+    "bg": "/images/45157781_9113288_Mesa de trabajo 1.jpg",
+    "title": "CẨM NANG Y TẾ TRỰC TUYẾN",
+    "desc": "Theo dõi thông tin và chăm sóc sức khỏe mọi lúc, mọi nơi. Tất cả thông tin sức khỏe và sản phẩm cần thiết trong một nơi duy nhất. Tự kiểm tra, nhận tư vấn và cập nhật tình trạng cơ thể dễ dàng.",
+    "link": "/sanpham",
+    "button": "Khám phá ngay",
+    "position": "center"
+  },
+  {
+    "id": 3,
+    "bg": "/images/Banner3-03.png",
+    "title": "SẢN PHẨM UY TÍN",
+    "desc": "Theo dõi sức khỏe, lưu trữ thông tin y tế và kết nối trực tiếp với các nhà thuốc DQHQ. Sản phẩm chăm sóc sức khỏe chính hãng, uy tín và chất lượng được đảm bảo. Một nơi duy nhất để chăm sóc sức khỏe cho bạn và gia đình, đa dạng, nhanh chóng và an tâm.",
+    "link": "/sanpham",
+    "button": "Khám phá ngay",
+    "position": "left"
+  }
+]

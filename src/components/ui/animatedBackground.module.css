@@ -1,0 +1,35 @@
+.pill {
+  position: absolute;
+  width: 50px;
+  opacity: 0.7;
+  animation-name: floatPill;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes floatPill {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+  }
+}
+
+/* Sinh ngẫu nhiên vị trí và delay cho từng viên */
+.pill0 { left: 5%; animation-delay: 0s; animation-duration: 12s; }
+.pill1 { left: 15%; animation-delay: 2s; animation-duration: 15s; }
+.pill2 { left: 25%; animation-delay: 4s; animation-duration: 10s; }
+.pill3 { left: 35%; animation-delay: 1s; animation-duration: 13s; }
+.pill4 { left: 45%; animation-delay: 3s; animation-duration: 11s; }
+.pill5 { left: 55%; animation-delay: 5s; animation-duration: 14s; }
+.pill6 { left: 65%; animation-delay: 0s; animation-duration: 12s; }
+.pill7 { left: 75%; animation-delay: 2s; animation-duration: 16s; }
+.pill8 { left: 85%; animation-delay: 1s; animation-duration: 13s; }
+.pill9 { left: 10%; animation-delay: 3s; animation-duration: 15s; }
+.pill10 { left: 20%; animation-delay: 5s; animation-duration: 12s; }
+.pill11 { left: 30%; animation-delay: 0s; animation-duration: 14s; }
+.pill12 { left: 40%; animation-delay: 2s; animation-duration: 11s; }
+.pill13 { left: 50%; animation-delay: 4s; animation-duration: 13s; }
+.pill14 { left: 60%; animation-delay: 1s; animation-duration: 16s; }

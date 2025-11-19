@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "banner"
+    label: "Banner Homepage"
+    folder: "content/banner"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "desc", widget: "text" }
+      - { label: "Background Image", name: "bg", widget: "image" }
+      - { label: "Button Text", name: "button", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Position", name: "position", widget: "select", options: ["left","center"] }
+
